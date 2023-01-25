@@ -41,5 +41,14 @@ function somar(valor1, valor2){
     //uso da palavra return para expecificar o retorno da função
     return valor1 +valor2; 
 };
-// somar(12, 20);
 console.log(somar(12, 20));
+
+
+//Exercício do slide 21 - dia 01 - semana 02
+var nome = window.prompt("Digite o seu nome:");
+convidar(nome);
+
+function convidar(nome){
+    var mensagem = `Convido ${nome} para o casamento de Juriscreide e Kleber.`;
+    document.write(`<h1>${mensagem}</h1>`);
+}
