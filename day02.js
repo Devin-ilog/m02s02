@@ -110,3 +110,38 @@ open = (open) ? false : true;
 // }else{
 //     open = true;
 // }
+
+
+//SWITCH CASE
+//A nível de processamento o else if ou if else é mais recomendável 
+//que um switch case (dependendo da quantidade de if else)
+
+var fruta = 'morango';
+switch (fruta) {
+  case 'banana':
+    console.log('Banana: R$10,00');
+    break;
+  case 'uva':
+    console.log('Uva: R$5,00');
+    break;
+  case 'laranja':
+    console.log('Laranja: R$8,00');
+    break;
+  default: // entra no bloco default caso não entre em nenhum case 
+    console.log('Fruta desconhecida');
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
